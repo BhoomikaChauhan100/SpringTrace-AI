@@ -1,0 +1,37 @@
+Project: SpringTrace AI
+
+Project Description:
+SpringTrace AI is an AI-powered code debugging assistant built using Java and Spring Boot.
+
+API Provider: BharatCode AI
+API Base URL: https://bharatcode.ai/api/model/v1
+Model: qwen-3.8-27b
+API Endpoint: /chat/completions
+HTTP Method: POST
+Authentication: Bearer Token
+
+Integration:
+The application uses the BharatCode AI API to analyze code, identify potential bugs, understand errors, and generate AI-powered debugging suggestions.
+
+Request Format: JSON
+
+Features:
+- AI-powered code diagnosis
+- Code explanation
+- Bug detection and debugging suggestions
+- Local pattern-based code analysis
+- Analysis history
+- User-friendly web interface
+
+Technology Stack:
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Thymeleaf
+- BharatCode Qwen AI
+
+Security:
+- API keys are stored using environment variables.
+- API keys are not committed to the public repository.
